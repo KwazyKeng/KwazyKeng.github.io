@@ -1,45 +1,98 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Personal Website</title>
-	<link rel="stylesheet" href="css/foundation.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Website</title>
+  <link rel="stylesheet" href="css/resume.css">
 </head>
 <body>
-    <div class="off-canvas-wrapper">
-        <!-- Your menu or Off-canvas content goes here -->
-        <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
-            <!-- Close button -->
-            <button class="close-button" aria-label="Close menu" type="button" data-close>
-                <span aria-hidden="true">&times;</span>
-            </button>
-
-            <!-- Menu -->
-            <ul class="vertical menu">
-                <li><a href="index.html">Home Page</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="funstuff.html">Fun Stuff</a></li>
-            </ul>
-        </div>
-        <!-- Your page content lives here -->
-        <div class="off-canvas-content" data-off-canvas-content>
-            <!-- main content within a `grid-container` -->
-            <div class="grid-container">
-                <div class="grid-x grid-padding-x">
-                    <button type="button" class="cell large-auto button" data-toggle="offCanvas">Open Menu</button>
-                </div>
-            </div>
-        </div>
+  <div class="off-canvas-wrapper">
+    <!-- Off-canvas menu -->
+    <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+      <button class="close-button" aria-label="Close menu" type="button" data-close>
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <ul class="vertical menu">
+        <li><a href="index.html">Home Page</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="funstuff.html">Fun Stuff</a></li>
+      </ul>
     </div>
 
-    <!-- include before closing <body> tag -->
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script type="application/javascript">
-        $(document).foundation();
-    </script>
+    <!-- Page content -->
+    <div class="off-canvas-content" data-off-canvas-content>
+      <div class="grid-container">
+        
+        <!-- Menu button -->
+        <div class="grid-x grid-padding-x">
+          <button type="button" class="cell large-auto button" data-toggle="offCanvas">
+            Open Menu
+          </button>
+        </div>
+
+        <!-- Resume title -->
+        <div class="grid-x grid-padding-x text-center margin-top-2 margin-bottom-2">
+          <div class="cell small-12">
+            <h1 id="Resume">Resume</h1>
+          </div>
+        </div>
+
+        <!-- Education -->
+        <div class="grid-x grid-padding-x margin-bottom-2">
+          <div class="cell small-12">
+            <h2 id="Education">Education</h2>
+            <p class="Schools" id="same">
+              <a href="https://tartan.isd622.org/" target="_blank">Tartan High School</a>, Oakdale MN
+            </p>
+            <p class="Schools" id="same">
+              Computer Science Major with a Minor in Data Science, 
+              <a href="https://www.stthomas.edu/" target="_blank">University of St. Thomas</a>, St Paul MN
+            </p>
+          </div>
+        </div>
+        <div class="grid-x grid-padding-x margin-bottom-2">
+          <div class="cell small-12">
+            <h2 id="WorkExperience">Work Experience</h2>
+          </div>
+          <div class="cell small-12 medium-6">
+            <h4 class="Experience" id="same">IT Network Infrastructure Student Worker</h4>
+            <p id="same">July 2022 - Present</p>
+          </div>
+          <div class="cell small-12 medium-6">
+            <h4 class="Experience" id="same">Hollister Sales Associate</h4>
+            <p id="same">July 2020 - May 2021</p>
+          </div>
+        </div>
+        <div class="grid-x grid-padding-x margin-bottom-2">
+          <div class="cell small-12">
+            <h2 id="Honors">Honors & Awards</h2>
+            <ul>
+              <li id="same">Dean’s List</li>
+              <li id="same">High School Soccer MVP and All-Conference</li>
+            </ul>
+          </div>
+        </div>
+        <div class="grid-x grid-padding-x margin-bottom-2">
+          <div class="cell small-12">
+            <h2 id="Activities">Activities</h2>
+            <ul>
+              <li id="same">Treasurer of Hmong United Students Association 2023–2024</li>
+              <li id="same">High School Soccer MVP and All-Conference</li>
+              <li id="same">Intramural Soccer and Volleyball</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- include before closing <body> tag -->
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/vendor/what-input.js"></script>
+  <script src="js/vendor/foundation.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
 </body>
 </html>

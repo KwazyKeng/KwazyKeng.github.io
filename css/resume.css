@@ -27,6 +27,23 @@ h1 {
   margin: 0.67em 0;
 }
 
+h1, #Resume {
+    font-size: 3.5rem;
+    font-family: 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+#Education, #WorkExperience, #Honors, #Activities {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', serif;
+}
+
+#same {
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', serif;
+}
+
 hr {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
