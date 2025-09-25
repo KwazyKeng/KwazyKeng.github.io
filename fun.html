@@ -4,13 +4,12 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Personal Website</title>
-	<link rel="stylesheet" href="css/foundation.css">
+	<link rel="stylesheet" href="css/fun.css">
 </head>
 <body>
     <div class="off-canvas-wrapper">
-        <!-- Your menu or Off-canvas content goes here -->
+    <!-- Off-canvas menu -->
         <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
-            <!-- Close button -->
             <button class="close-button" aria-label="Close menu" type="button" data-close>
                 <span aria-hidden="true">&times;</span>
             </button>
@@ -20,7 +19,7 @@
                 <li><a href="index.html">Home Page</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="resume.html">Resume</a></li>
-                <li><a href="funstuff.html">Fun Stuff</a></li>
+                <li><a href="fun.html">Fun Stuff</a></li>
             </ul>
         </div>
         <!-- Your page content lives here -->
@@ -31,8 +30,85 @@
                     <button type="button" class="cell large-auto button" data-toggle="offCanvas">Open Menu</button>
                 </div>
             </div>
+            <div class="grid-x grid-padding-x text-center margin-top-2 margin-bottom-2">
+                <div class="cell small-12">
+                    <h1 id="Freetime">Free Time</h1>
+                </div>
+            </div>
+            <div class="grid-x grid-margin-x text-center">
+          <div class="cell small-12 medium-4 large-4">
+            <a href="#fun1">
+              <img src="images/soccer.jpg" alt="Soccer Photo" class="thumbnail">
+            </a>
+          </div>
+          <div class="cell small-12 medium-4 large-4">
+            <a href="#fun2">
+              <img src="images/volleyball.jpg" alt="Volleyball Photo" class="thumbnail">
+            </a>
+          </div>
+          <div class="cell small-12 medium-4 large-4">
+            <a href="#fun3">
+              <img src="images/running.jpg" alt="Running Photo" class="thumbnail">
+            </a>
+          </div>
         </div>
+
+        <div class="grid-x grid-padding-x margin-top-3">
+          <div class="cell small-12" id="fun1">
+            <h2 id="Soccer">Soccer</h2>
+            <p id="pSoccer">One of the things I like to do on my free time is play soccer. I used to play competitively, but since then
+                I have been playing for fun with friends and family.</p>
+          </div>
+          <div class="cell small-12 margin-top-2" id="fun2">
+            <h2 id="Volleyball">Volleyball</h2>
+            <p id="pVolleyball">About once a week, I play volleyball with my friends and family. I have just started playing not too long ago,
+                but it is a sport that I love to play.
+            </p>
+          </div>
+          <div class="cell small-12 margin-top-2" id="fun3">
+            <h2 id="Running">Running</h2>
+            <p id="pRunning">To keep active, I like to go running 3-4 times a week. I am not currently training for anything in particular,
+                but I would like to run a marathon some time in the future.
+            </p>
+          </div>
+        </div>
+                <div class="grid-x grid-margin-x text-center margin-top-3">
+          <div class="cell small-12 medium-4 large-4">
+            <a href="#fun4">
+              <img src="images/music.jpg" alt="Music Photo" class="thumbnail">
+            </a>
+          </div>
+          <div class="cell small-12 medium-4 large-4">
+            <a href="#fun5">
+              <img src="images/football.jpg" alt="Football Photo" class="thumbnail">
+            </a>
+          </div>
+          <div class="cell small-12 medium-4 large-4">
+            <a href="#fun6">
+              <img src="images/game.jpg" alt="Gaming Photo" class="thumbnail">
+            </a>
+          </div>
+        </div>
+
+        <div class="grid-x grid-padding-x margin-top-3">
+          <div class="cell small-12" id="fun4">
+            <h2 id="Music">Listening to Music</h2>
+            <p id="pMusic">Music is a big part of my life. If I am not doing something that requires listening, I 
+                            will often be listening to music.</p>
+          </div>
+          <div class="cell small-12 margin-top-2" id="fun5">
+            <h2 id="Football">Watching Football</h2>
+            <p id="pFootball">I <b>love</b> watching football.</p>
+          </div>
+          <div class="cell small-12 margin-top-2" id="fun6">
+            <h2 id="VideoGames">Playing Video Games</h2>
+            <p id="pVideoGames">I also like to play video games when I have time. It helps pass time and keeps me entertained.</p>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+
 
     <!-- include before closing <body> tag -->
     <script src="js/vendor/jquery.js"></script>
