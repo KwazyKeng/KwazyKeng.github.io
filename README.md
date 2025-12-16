@@ -10,4 +10,4 @@ Keng Yang, student at the University of St. Thomas
 
 ## To view
 
-Visit [github.io/]https://kwazykeng.github.io/
+Visit https://kwazykeng.github.io/
